@@ -1,0 +1,45 @@
+body {
+    background: #f4f6f9;
+}
+
+.sidebar {
+    height: 100vh;
+    background: #212529;
+    color: white;
+    position: fixed;
+    width: 250px;
+    padding: 20px 10px;
+}
+
+.sidebar a {
+    color: #cfcfcf;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.sidebar a:hover {
+    background: #343a40;
+    color: white;
+}
+
+.sidebar a.active {
+    background: #0d6efd;
+    color: white;
+}
+
+.content {
+    margin-left: 260px;
+    padding: 30px;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
