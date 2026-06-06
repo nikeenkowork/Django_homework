@@ -47,7 +47,6 @@ class Handler(BaseHTTPRequestHandler):
             # Если маршрут не найден → 404 ошибка
             self.send_error(404, "Page not found")
 
-
             return
 
         # Читаем HTML файл
@@ -109,7 +108,6 @@ class Handler(BaseHTTPRequestHandler):
         else:
             # Если путь не поддерживается
             self.send_error(404, "Page not found")
-
 
 
 # Создаём и запускаем сервер
